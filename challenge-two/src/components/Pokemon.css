@@ -1,0 +1,35 @@
+.namePokemon {
+    text-transform: capitalize;
+}
+.pokemon {  
+    border: 1px solid rgb(126, 0, 243);
+    margin: auto;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 30%;
+    text-align: center;
+    border-radius: .4em;
+    font-size: 1.1em;
+}
+.pokemon img {
+    width: 30%;
+}
+
+@media (max-width: 1400px) {
+    .pokemon img {
+        width: 50%;
+    }
+}
+@media (max-width: 1000px) {
+    .pokemon img {
+        width: 70%;
+    }
+}
+@media (max-width: 680px) {
+    .pokemon {
+        width: 100%;
+    }
+    .pokemon img {
+        width: 35%;
+    }
+}

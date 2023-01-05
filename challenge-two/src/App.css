@@ -1,0 +1,42 @@
+.App {
+  width: 80%;
+  margin: auto;
+}
+.App h1 {
+  text-align: center;
+  margin: .9em .5em .5em;
+}
+.allPokemons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.allPokemons .noPokemons {
+  text-align: center;
+  margin: 1em .5em;
+  font-size: 1.1em;
+}
+.paginationOptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paginationOptions button {
+  margin: 1em;
+  padding: .5em;
+  width: 2.5em;
+  height: 2.5em;
+  border: 1px solid rgb(126, 0, 243);
+  background-color: transparent;
+  border-radius: .4em;
+  font-size: 1em;
+  transition: .3s;
+  cursor: pointer;
+}
+.paginationOptions button:hover {
+  background-color: rgb(126, 0, 243);
+  color: #fff;
+}
+.count {
+  font-weight: 550;
+  font-size: 1.2em;
+}

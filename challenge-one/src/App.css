@@ -1,0 +1,32 @@
+.App {
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 100vh;
+}
+.circle {
+  background-color: transparent;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #fff;
+}
+.optionsButton {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2em;
+}
+.optionsButton button {
+  padding: .5em;
+  margin-left: .5em;
+  border-radius: .3em;
+  background-color: transparent;
+  border: 1px solid #fff;
+  transition: .3s;
+  cursor: pointer;
+}
+.optionsButton button:hover {
+  background-color: #fff;
+  color: #000;
+}
